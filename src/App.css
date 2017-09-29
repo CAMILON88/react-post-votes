@@ -2,27 +2,85 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+hr{
+  width: 50%;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.orden{
+  margin-top: 70px;
+ 
+
 }
 
-.App-title {
-  font-size: 1.5em;
+.post-image{
+  height: 100px;
+    width: 160px;
+
 }
 
-.App-intro {
-  font-size: large;
+table
+{ 
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+table td{
+  padding-left: 25px;
+  padding-top: 40px;
+
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+a{
+  text-decoration: none;
+  color:#008CBA;
 }
+
+p{
+  text-align: justify;
+  line-height: 1.5;
+}
+
+#avatar{
+  border-radius: 50%;
+  width:35px;
+  height:35px;
+  position:relative;
+  top:10px;
+}
+
+.boton_orden{
+  width:50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fa{
+  position:relative;
+  left:2px;
+  color:#008CBA;
+}
+
+.button {
+    background-color: #e7e7e7;
+    border: none;
+    color: #008CBA;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.active{
+  background-color:#008CBA;
+  color:white;
+}
+
+.espacio {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
